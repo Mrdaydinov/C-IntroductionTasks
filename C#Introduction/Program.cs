@@ -40,7 +40,10 @@
             foreach (string student in students)
             {
                 if (name == student)
+                {
                     flag = true;
+                    break;
+                }
             }
 
             if (flag)
